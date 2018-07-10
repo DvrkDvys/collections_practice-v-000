@@ -45,7 +45,7 @@ end
 
 def add_s(arr)
   if i != 2 arr.each do |i|
-    i << 's'
+    i << 's' unless arr[2] == i
   end
 end
 
