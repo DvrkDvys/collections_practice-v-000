@@ -37,20 +37,20 @@ describe 'collections practice' do
   #   end
   # end
 
-  # Question 6
-  describe '#kesha_maker' do
-    # DO NOT USE .collect or .map. use .each to build a new array, like in the "my_each" lab!
-    it 'taking an array as an input, change the 3rd character of each element to a dollar sign.' do
-      expect(kesha_maker(["blake", "ashley", "scott"])).to eq(["bl$ke", "as$ley", "sc$tt"])
-    end
-  end
-
-  # # Question 7
-  # describe '#find_a' do
-  #   it 'find all words that begin with "a" in the following array' do
-  #     expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
+  # # Question 6
+  # describe '#kesha_maker' do
+  #   # DO NOT USE .collect or .map. use .each to build a new array, like in the "my_each" lab!
+  #   it 'taking an array as an input, change the 3rd character of each element to a dollar sign.' do
+  #     expect(kesha_maker(["blake", "ashley", "scott"])).to eq(["bl$ke", "as$ley", "sc$tt"])
   #   end
   # end
+
+  # Question 7
+  describe '#find_a' do
+    it 'find all words that begin with "a" in the following array' do
+      expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
+    end
+  end
 
   # # Question 8
   # describe '#sum_array' do
