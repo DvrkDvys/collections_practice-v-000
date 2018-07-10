@@ -40,6 +40,6 @@ def find_a(arr)
 end
 
 def sum_array(arr)
-  sum = arr.sum
-  sum
+    arr.inject(:+)
+  # sum
 end
