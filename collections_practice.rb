@@ -41,4 +41,5 @@ def find_a(arr)
       i.collect
     end
   end
+  arr
 end
