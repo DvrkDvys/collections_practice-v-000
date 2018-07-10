@@ -47,6 +47,7 @@ def add_s(arr)
   arr.each do |i| unless i = 1
     i << 's'
   end
+  end
 end
 
 
