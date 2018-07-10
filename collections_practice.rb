@@ -31,6 +31,7 @@ end
 
 def kesha_maker(arr)
   # binding.pry
-  arr.each do |i[2] = '$'| until arr.empty?
+  arr.each do |i|
+    i[2] = '$'
   end
 end
