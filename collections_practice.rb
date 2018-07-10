@@ -44,7 +44,7 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  if i != 2 arr.each do |i|
+  arr.each do |i|
     i << 's' unless arr[2] == i
   end
 end
