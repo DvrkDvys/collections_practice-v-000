@@ -34,3 +34,8 @@ def kesha_maker(arr)
     i[2] = '$'
   end
 end
+
+def find_a(arr)
+  arr.collect do |i|
+    i.start_with? = 'a'
+end
