@@ -45,7 +45,7 @@ end
 
 def add_s(arr)
   arr.each do |i|
-    i << 's' unless arr[2] == i
+    i << 's' unless arr[1] == i
   end
 end
 
