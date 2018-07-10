@@ -37,6 +37,6 @@ end
 
 def find_a(arr)
   arr.each do |i|
-    i.start_with? == 'a'
+    if i.start_with? == 'a' do i.collect?
   end
 end
