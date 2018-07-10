@@ -30,7 +30,6 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  # binding.pry
   arr.each do |i|
     i[2] = '$'
   end
