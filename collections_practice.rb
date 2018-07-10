@@ -38,3 +38,8 @@ end
 def find_a(arr)
   arr.select { |i| i.start_with?('a') }
 end
+
+def sum_array(arr)
+  sum = arr.sum
+  sum
+end
