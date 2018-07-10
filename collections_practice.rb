@@ -48,5 +48,3 @@ def add_s(arr)
     i << 's' unless arr[1] == i
   end
 end
-
-
